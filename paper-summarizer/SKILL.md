@@ -1,6 +1,8 @@
 ---
 name: paper-summarizer
-description: Use when the user wants to summarize academic papers (especially CV/ML papers from conferences like CVPR, ICCV, NeurIPS, etc.) from extracted plain-text (.txt) files into a structured, well-formatted Markdown (.md) summary written entirely in Chinese. The summary includes the paper title, problem addressed, abstract, first-author affiliation, innovations, work summary, and GitHub repository link if available. Trigger keywords: "summarize paper", "论文总结", "paper summary", "总结这篇文章", or any request to create a structured summary from academic paper text. Also trigger when the user wants to batch-extract PDFs and summarize them.
+description: "Use when the user wants to summarize academic papers (especially CV/ML papers from conferences like CVPR, ICCV, NeurIPS, etc.) from extracted plain-text (.txt) files into a structured, well-formatted Markdown (.md) summary written entirely in Chinese. The summary includes the paper title, problem addressed, abstract, first-author affiliation, innovations, work summary, and GitHub repository link if available. Trigger keywords: \"summarize paper\", \"论文总结\", \"paper summary\", \"总结这篇文章\", or any request to create a structured summary from academic paper text. Also trigger when the user wants to batch-extract PDFs and summarize them."
+user-invocable: true
+license: MIT
 ---
 
 # Paper Summarizer
